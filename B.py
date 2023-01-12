@@ -6,4 +6,7 @@
 # 1 gràfica circular per cada funció mostrant els resultats. (Cal que la gràfica
 # tingui llegenda i cal mostrar el % en cada “quesito”)
 
-
+import pandas as pd
+from numpy import *
+import math
+import matplotlib.pyplot as plt
