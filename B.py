@@ -1,3 +1,4 @@
+# ----------------------- B -----------------------
 # - funció que mostri, per ciutat, el total de població.
 # - funció que mostri, per ciutat, la densitat per KM2
 # - funció que mostri, per ciutat, la densitat per M2
