@@ -10,3 +10,18 @@ import pandas as pd
 from numpy import *
 import math
 import matplotlib.pyplot as plt
+
+import Exercici1
+import Exercici2
+import Exercici3
+
+
+# Exercici 1
+print("Exercici 1")
+print('Imprimimos la grafica 1: ', Exercici1.function1())
+# Exercici 2
+print("Exercici 2")
+print('Imprimimos la grafica 2: ', Exercici2.function2())
+# Exercici 3
+print("Exercici 3")
+print('Imprimimos la grafica 3: ', Exercici3.function3())
