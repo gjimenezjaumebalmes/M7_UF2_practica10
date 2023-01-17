@@ -6,7 +6,8 @@
 # 1 gràfica circular per cada funció mostrant els resultats. (Cal que la gràfica
 # tingui llegenda i cal mostrar el % en cada “quesito”)
 
-from B import Exercici2, Exercici1
+import Exercici2
+import Exercici1
 import Exercici3
 
 
