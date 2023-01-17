@@ -14,3 +14,5 @@ def function3():
     plt.pie(df["Density KM2"], labels=df["City"])
     plt.title("Ejercicio 3")
     plt.show()
+if __name__ == "__main__":
+    function3()

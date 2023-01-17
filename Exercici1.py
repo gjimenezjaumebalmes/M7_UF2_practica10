@@ -14,3 +14,5 @@ def function1():
     plt.pie(df["Population"], labels=df["City"])
     plt.title("Ejercicio 1")
     plt.show()
+if __name__ == "__main__":
+    function1()
