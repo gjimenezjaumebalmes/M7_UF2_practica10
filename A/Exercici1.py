@@ -6,10 +6,17 @@ import pandas as pd
 
 def function1(country1, country2, country3, country4, country5, country6, country7, country8, country9, country10):
     data = pd.read_csv('data.csv')
-    filter = (data['location'] == country1) | (data['location'] == country2) | (data['location'] == country2) | (
-                data['location'] == country3) | (data['location'] == country4) | (data['location'] == country5) | (
-                         data['location'] == country6) | (data['location'] == country7) | (data['location'] == country8) | (
-                         data['location'] == country9) | (data['location'] == country10)
+    filter = (data['location'] == country1) | \
+             (data['location'] == country2) | \
+             (data['location'] == country2) | \
+             (data['location'] == country3) | \
+             (data['location'] == country4) | \
+             (data['location'] == country5) | \
+             (data['location'] == country6) | \
+             (data['location'] == country7) | \
+             (data['location'] == country8) | \
+             (data['location'] == country9) | \
+             (data['location'] == country10)
     datacountrys = data[filter]
     filter2 = datacountrys.columns.isin(['location', 'date', 'total_cases'])
     selectedcols = datacountrys.columns[filter2]

@@ -11,13 +11,13 @@ import Exercici3
 
 # Exercici 1
 print("Exercici 1")
-print('Imprimimos la grafica 1: ')
+print("----------Clock-Speed---------------")
 Exercici1.function1()
 # Exercici 2
 print("Exercici 2")
-print('Imprimimos la grafica 2: ')
+print("----------Mega Pixels----------------")
 Exercici2.function2()
 # Exercici 3
 print("Exercici 3")
-print('Imprimimos la grafica 3: ')
+print("----------Battery Power--------------")
 Exercici3.function3()
