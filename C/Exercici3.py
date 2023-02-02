@@ -2,6 +2,7 @@
 # - funció que mostri, per m`bil (ID) la battery power
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def function3():
         data = pd.read_csv('data.csv')

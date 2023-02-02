@@ -2,6 +2,7 @@
 # - funció que mostri, per mòbil (ID), clock speed
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def function1():
     data = pd.read_csv('data.csv')

@@ -11,7 +11,7 @@ import Exercici3
 
 # Exercici 1
 print("Exercici 1")
-Exercici1.function1()
+Exercici1.function1('country1', 'country2', 'country3', 'country4', 'country5', 'country6','country7', 'country8', 'country9', 'country10')
 # Exercici 2
 print("Exercici 2")
 Exercici2.function2()
