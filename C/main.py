@@ -35,7 +35,6 @@ def grafica():
     cast = []
     for i in array:
         cast += [str(i)]
-    fig = plt.figure(figsize = (10, 5))
     plt.xlabel("ID")
     plt.ylabel("Clock Speed")
     plt.bar(cast, filterValores, width=0.4 , color=colors)
